@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="close-button-20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\close-button-20x20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh-button-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\refresh-button-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pass-20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\pass-20x20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_long-arrow-up_100_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_long-arrow-up_100_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\user-20x20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user-shape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\user-shape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new-sale-2-50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\new-sale-2-50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="octicons_4-3-0_primitive-dot_10_0_00a65a_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\octicons_4-3-0_primitive-dot_10_0_00a65a_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-50x50-red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cancel-50x50-red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icomoon-free_2014-12-23_stats-bars_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icomoon-free_2014-12-23_stats-bars_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cancel-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-40x40-red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cancel-40x40-red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ligature-symbols_2-11-0_add_25_0_f1f1f1_none1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ligature-symbols_2-11-0_add_25_0_f1f1f1_none1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_bars_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_bars_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ligature-symbols_2-11-0_add_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ligature-symbols_2-11-0_add_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="truck-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\truck-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="typicons_2-0-7_tick_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\typicons_2-0-7_tick_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="001-cash-register-machine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\001-cash-register-machine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_truck_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_truck_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="two-men" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\two-men.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cash-register-machine-open-40x40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cash-register-machine-open-40x40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foundation-icon-fonts_2015-02-16_page-export-pdf_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foundation-icon-fonts_2015-02-16_page-export-pdf_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_user-circle-o_20_0_f1f1f1_none1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_user-circle-o_20_0_f1f1f1_none1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_pencil_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_pencil_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_power-off_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_power-off_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="material-icons_3-0-1_attach-money_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\material-icons_3-0-1_attach-money_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="min-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\min-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="config-20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\config-20x20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_user-circle-o_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_user-circle-o_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_home_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_home_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ligature-symbols_2-11-0_add_25_0_f1f1f1_none2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ligature-symbols_2-11-0_add_25_0_f1f1f1_none2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventory-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\inventory-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_window-minimize_20_0_f1f1f1_none1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_window-minimize_20_0_f1f1f1_none1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\detail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clear-button-20x20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\clear-button-20x20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cashier-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\cashier-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="typicons_2-0-7_delete_20_0_f56954_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\typicons_2-0-7_delete_20_0_f56954_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="box-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\box-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="octicons_4-3-0_primitive-dot_10_0_00a65a_none1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\octicons_4-3-0_primitive-dot_10_0_00a65a_none1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ionicons_2-0-1_android-delete_25_0_f1f1f1_none1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ionicons_2-0-1_android-delete_25_0_f1f1f1_none1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="octicons_4-3-0_primitive-dot_10_0_00a65a_none2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\octicons_4-3-0_primitive-dot_10_0_00a65a_none2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-30x30-red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cancel-30x30-red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stroke-7_1-2-0_cash_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stroke-7_1-2-0_cash_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add-blue-30x301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\add-blue-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="box-41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\box-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\list-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel_50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\cancel_50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_search_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_search_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18740092_1851243531863286_2642745955361773779_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18740092_1851243531863286_2642745955361773779_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_sale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\add_sale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="octicons_4-3-0_primitive-dot_20_0_00a65a_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\octicons_4-3-0_primitive-dot_20_0_00a65a_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ligature-symbols_2-11-0_add_40_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ligature-symbols_2-11-0_add_40_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="typicons_2-0-7_cancel_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\typicons_2-0-7_cancel_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mfg-labs-iconset_2014-07-29_settings_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mfg-labs-iconset_2014-07-29_settings_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_lock_25_0_333333_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_lock_25_0_333333_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_close_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_close_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="users-social-symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\users-social-symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_user_25_0_333333_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_user_25_0_333333_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="work-order-50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\work-order-50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="change-pass-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\change-pass-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="002-dollar-symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\002-dollar-symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icomoon-free_2014-12-23_truck_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icomoon-free_2014-12-23_truck_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ligature-symbols_2-11-0_addnew_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ligature-symbols_2-11-0_addnew_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new-sale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\new-sale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foundation-icon-fonts_2015-02-16_page-search_25_0_f1f1f1_none1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foundation-icon-fonts_2015-02-16_page-search_25_0_f1f1f1_none1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_long-arrow-down_100_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_long-arrow-down_100_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ionicons_2-0-1_android-delete_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ionicons_2-0-1_android-delete_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked-50x50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\checked-50x50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="graph-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\graph-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_window-minimize_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_window-minimize_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checked-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\checked-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="front-store-white-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_icons\front-store-white-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete-user-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\delete-user-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foundation-icon-fonts_2015-02-16_page-search_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foundation-icon-fonts_2015-02-16_page-search_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add-blue-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\add-blue-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cashbox (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cashbox (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add-user-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\add-user-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searching-magnifying-glass-30x30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\misc_icons\searching-magnifying-glass-30x30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconic_1-1-1_box_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconic_1-1-1_box_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ionicons_2-0-1_ios-people_20_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ionicons_2-0-1_ios-people_20_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_user-plus_25_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_user-plus_25_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font-awesome_4-7-0_user-circle-o_45_0_f1f1f1_none" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font-awesome_4-7-0_user-circle-o_45_0_f1f1f1_none.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
